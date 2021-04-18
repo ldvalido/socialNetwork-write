@@ -9,6 +9,7 @@ import (
 func main() {
 	log.SetPrefix("writer-main:")
 	log.SetFlags(0)
+
 	names := []string{"Gladys", "Ramon", "Jose"}
 	message, err := basicModule.Hellos(names)
 	if err != nil {
